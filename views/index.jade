@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+	head
+		title= pageTitle
+		meta(charset="UTF-8")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js")
+		script(src="js/Three.js")
+		script(src="js/particleSystem.js")
+		link(rel="stylesheet", href="css/style.css", type="text/css")
+		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Roboto:400,500", type="text/css")
+	body
+		section#content
+			h1.title #{data.title}
+			h2.caption #{data.caption}
+		section#ParticleSystem
+			div.container 
+
